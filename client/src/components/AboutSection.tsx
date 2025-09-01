@@ -5,7 +5,7 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text" data-testid="about-title">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="about-subtitle">
-            Passionate developer with 5+ years of experience building scalable web applications
+            Passionate developer with 8+ years of experience building scalable web applications
           </p>
         </div>
         
@@ -18,7 +18,7 @@ export default function AboutSection() {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-foreground" data-testid="about-journey-title">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed" data-testid="about-journey-p1">
-              I started my journey in web development 5 years ago with a simple "Hello World" program. 
+              I started my journey in web development 8 years ago with a simple "Hello World" program. 
               Since then, I've had the privilege of working with startups and established companies, 
               helping them bring their digital visions to life.
             </p>
