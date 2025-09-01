@@ -10,13 +10,10 @@ export default function AboutSection() {
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800" 
-              alt="Professional headshot of Alex Johnson" 
-              className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
-              data-testid="about-image"
-            />
+          <div className="flex justify-center">
+            <div className="w-80 h-80 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center shadow-2xl">
+              <div className="text-8xl font-bold text-white">VL</div>
+            </div>
           </div>
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-foreground" data-testid="about-journey-title">My Journey</h3>
