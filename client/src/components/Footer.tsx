@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-muted-foreground" data-testid="footer-text">
-            © 2024 Alex Johnson. All rights reserved. Built with passion and modern web technologies.
+            © 2025 Victor Lin. All rights reserved. Built with passion and modern web technologies.
           </p>
         </div>
       </div>

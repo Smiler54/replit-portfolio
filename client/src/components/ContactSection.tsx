@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Phone, MapPin, Linkedin, Github, X, Globe } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Globe } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export default function ContactSection() {
@@ -118,9 +118,9 @@ export default function ContactSection() {
                 <a 
                   href="#" 
                   className="bg-card p-3 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-x"
+                  data-testid="social-twitter"
                 >
-                  <X className="w-6 h-6" />
+                  <Twitter className="w-6 h-6" />
                 </a>
                 <a 
                   href="#" 
