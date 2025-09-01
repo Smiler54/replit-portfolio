@@ -18,7 +18,7 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6" data-testid="hero-title">
-            Hi, I'm <span className="gradient-text">Alex Johnson</span>
+            Hi, I'm <span className="gradient-text">Victor Lin</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto" data-testid="hero-description">
             Full Stack Developer passionate about creating beautiful, functional web applications 

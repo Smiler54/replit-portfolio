@@ -37,15 +37,15 @@ export default function SkillsSection() {
         chartInstance.current = new window.Chart(ctx, {
           type: 'doughnut',
           data: {
-            labels: ['Frontend', 'Backend', 'Database', 'DevOps', 'Design', 'Mobile'],
+            labels: ['Full Stack Development', 'AI & Machine Learning', 'Blockchain & Web3', 'DevOps & Cloud', 'Database Design', 'System Architecture'],
             datasets: [{
-              data: [90, 85, 80, 70, 75, 65],
+              data: [95, 90, 85, 80, 85, 80],
               backgroundColor: [
                 'hsl(217 91% 60%)',
                 'hsl(142 76% 36%)',
-                'hsl(220 17% 17%)',
-                'hsl(37 91% 55%)',
                 'hsl(262 83% 58%)',
+                'hsl(37 91% 55%)',
+                'hsl(220 17% 17%)',
                 'hsl(346 87% 43%)'
               ],
               borderWidth: 0,
@@ -82,21 +82,21 @@ export default function SkillsSection() {
   }, []);
 
   const skills = [
-    { name: "JavaScript / TypeScript", percentage: 95 },
-    { name: "React / Next.js", percentage: 90 },
-    { name: "Node.js / Express", percentage: 85 },
-    { name: "Python / Django", percentage: 80 },
-    { name: "Database Design", percentage: 85 },
-    { name: "UI/UX Design", percentage: 75 }
+    { name: "Full Stack Development", percentage: 95 },
+    { name: "AI & Machine Learning", percentage: 90 },
+    { name: "Blockchain & Smart Contracts", percentage: 85 },
+    { name: "React / Next.js / Vue.js", percentage: 90 },
+    { name: "Node.js / Python / Solidity", percentage: 88 },
+    { name: "Database & Cloud Architecture", percentage: 85 }
   ];
 
   const additionalSkills = [
-    { icon: GitBranch, name: "Git" },
+    { icon: GitBranch, name: "Web3.js" },
     { icon: Container, name: "Docker" },
-    { icon: Database, name: "AWS" },
-    { icon: Smartphone, name: "Mobile Dev" },
-    { icon: BarChart3, name: "Analytics" },
-    { icon: Shield, name: "Security" }
+    { icon: Database, name: "TensorFlow" },
+    { icon: Smartphone, name: "Ethereum" },
+    { icon: BarChart3, name: "PyTorch" },
+    { icon: Shield, name: "Solidity" }
   ];
 
   return (
