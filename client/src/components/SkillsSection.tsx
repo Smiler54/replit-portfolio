@@ -131,7 +131,7 @@ export default function SkillsSection() {
                   <div className="w-full bg-muted rounded-full h-2">
                     <div 
                       className={`skill-bar h-2 rounded-full transition-all duration-1000 ease-in-out ${
-                        index < 2 ? 'bg-primary' : index < 4 ? 'bg-accent' : 'bg-secondary'
+                        index < 2 ? 'bg-primary' : index < 4 ? 'bg-accent' : 'bg-red-500'
                       }`}
                       style={{ width: `${skill.percentage}%` }}
                       data-testid={`skill-bar-${index}`}

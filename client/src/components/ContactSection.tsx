@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Globe } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Github, X, Globe } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export default function ContactSection() {
@@ -73,7 +73,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h4 className="font-semibold">Email</h4>
-                <p className="text-muted-foreground">alex.johnson@email.com</p>
+                <p className="text-muted-foreground">olaf3915@gmail.com</p>
               </div>
             </div>
             
@@ -83,7 +83,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h4 className="font-semibold">Phone</h4>
-                <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                <p className="text-muted-foreground">+1 (571) 390-4056</p>
               </div>
             </div>
             
@@ -118,9 +118,9 @@ export default function ContactSection() {
                 <a 
                   href="#" 
                   className="bg-card p-3 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-twitter"
+                  data-testid="social-x"
                 >
-                  <Twitter className="w-6 h-6" />
+                  <X className="w-6 h-6" />
                 </a>
                 <a 
                   href="#" 
